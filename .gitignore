@@ -1,0 +1,27 @@
+# Miscellaneous
+.DS_Store
+*.log
+*.swp
+.idea/
+
+# Large binary, exceeds GitHub 100MB limit
+docs/official.apk
+
+# Images (keep only framework-required app icons)
+docs/*.png
+docs/*.jpg
+sheets/
+flutter_3d_demo/flutter_01.png
+flutter_3d_demo/assets/photos/
+flutter_3d_demo/assets/thumbs/
+flutter_3d_demo/assets/earth_dark.jpg
+flutter_3d_demo/test/shots/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.buildlog/
+build/
