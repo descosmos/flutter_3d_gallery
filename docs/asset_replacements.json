@@ -1,0 +1,3235 @@
+{
+  "description": "缺失项使用同次旅行中位置最近的现有照片作为演示素材；GPS 仍是原始演示点位，不是替代照片的拍摄位置。",
+  "original_count": 151,
+  "original_sha256": {
+    "1715233268816.jpg": "e7a947a53e8f76ea5d3d19aed427710b7ba45a971d6b043fe6565398874bc608",
+    "1715233278180.jpg": "22cb8650474e4504323758017955b67e22d2772cd470f381f74fc4330fdc346e",
+    "IMG_20240503_105343.jpg": "f79651d69ebbaef0d828035d42f81ddc34115938c414e15068e59b81569e7dbf",
+    "IMG_20240503_162530.jpg": "097cb192c41330abde04531baa20ad26b5dfaa9c1c2cd5bf1bd7fa6a7cd3055c",
+    "IMG_20240503_180134.jpg": "2eb48ef13b7c1f8207791e7dc2f971f30007ac8ad6421af6269fef80a4f4d14f",
+    "IMG_20240504_155654.jpg": "1eff6ec670dea14aeb994e98d1a53c46c6786e32d680b3c77d4ea9cae0c783bb",
+    "IMG_20240504_155655.jpg": "1a3d82434fdbe8d6d7d9ede3f556c18c9e1bbe4fd227914c8f0057e2b3bb61f8",
+    "IMG_20240504_155658.jpg": "f7550450a6aae1e39d7b4960956af4576d9ea5844b55b3a7253a02bed464a75b",
+    "IMG_20240504_155726.jpg": "a72f5f2929441fab1d57fc10984f1e591dc46568cd0bd4c93332e3217c8ab3cf",
+    "IMG_20240504_155728.jpg": "cd771a8c63f6cce3f63b841e9ae661db2b9c4fb5793a95a210c0c4910ac899fd",
+    "IMG_20240504_155738.jpg": "241084b2dc3a485076eb6e1019f216955396bc78a0e75ae7b5233a0914d419d4",
+    "IMG_20240504_190337.jpg": "56b83709f922fb4b66b8496b0bfc64afe3a4213bf1e2417343be7fb9c7f25680",
+    "IMG_20240504_190354.jpg": "bc7913f18b7ed9e375763010db9a27acf31ba9b0f742916f73ca927befdbd220",
+    "IMG_20240504_190553.jpg": "85e63cd58fae42be19b273f0a07fc191eb1a215cb13770a1aa361d94c5e93001",
+    "IMG_20240504_190555.jpg": "9c7270c795d73d0e0b4a6702301e1ed7cd85ef46cafbea3da0e5ea060fd26b84",
+    "IMG_20240505_102620.jpg": "68759c6f669ee78058a4f0d3f1c8efb59b39ae949bb8f3d329e0369659a6533a",
+    "IMG_20240505_102625.jpg": "062681e62792962c4d083d149c8a7365d425a3d30f8717517db4c12013b212a5",
+    "IMG_20240505_102631.jpg": "8213172a59941044eee9013caf1d1e9aeb9b90bae00868fd2a54ecc118474818",
+    "IMG_20240505_103221.jpg": "778a445dc2b990a8f4087456879cbb42e4f81ae878fd312d609c11125abfdb79",
+    "IMG_20240505_103325.jpg": "2ead6c85f358b2f7863a7789afa24882e66c58f4b8bfc1621aa25365dd25f33d",
+    "IMG_20240505_103326.jpg": "0121f7e7d9e9585c62fbcb81b96d9350e039bea3ff2afa2ee4c427072cb91cd8",
+    "IMG_20240505_163527.jpg": "1e5e716f7bed9459b91a6c494ddc6400f2d35c49e311d186a3b4f9ad83819ee4",
+    "IMG_20240505_163542.jpg": "eed156f9027f78fc7e8fd8a1252fd0d2a98190e5d43e0970d91977b940672af5",
+    "IMG_20240505_163550.jpg": "e6df21626a025cf1629b56d0074210ef34e14851d0e1bfffb1a4fc7220f267f7",
+    "IMG_20240505_163555.jpg": "428c11cf6355883d86539f7c4c5566458473932b8c12bb91370ec7ff743230ae",
+    "IMG_20240505_163714.jpg": "e7436a1971db5ec9f985adfa587d62aa4804b5c4bf4594233c61badd851cd3ba",
+    "IMG_20240505_164556.jpg": "691087de96a19c94d5af48399f3cfd050493c581e642c5b9f24e380e048b2852",
+    "IMG_20240505_164601.jpg": "9e4f09c7e693c3362384c4d6cf68031700651d341d95b4b3987f8ca36ff68115",
+    "IMG_20240505_164608.jpg": "d9b58f10e5c1933f7627a974101d0083b15c46484c5effbdb4b255dfdb2e956e",
+    "IMG_20240505_164612.jpg": "e8bc1fac73a6af5612af639ef8d61057e8c580109a6befa771e5b6c59a9e5ad7",
+    "IMG_20240506_093436.jpg": "2e5b083d486fae31a8152cb54b214df8793f581bd084820783bf0c45afea81dc",
+    "IMG_20240506_100341.jpg": "3e3e87d0c261f3d4bbf9ccc77c93f2317acd3bf3ab5b6b7a62ab31e1a8e545f4",
+    "IMG_20240506_100342-0c8b6f16d05d.jpg": "b24927a793db35637a5e1477374e3410790c4c53d76879a5a525f2ff397210c1",
+    "IMG_20240506_100342.jpg": "b177be7fdd1f4d266c66ad99c99cf69d2f15ad94398ef546ca56220b8344af81",
+    "IMG_20240506_100344.jpg": "5bdc585b8f11b3f919b81aa25db1223d7bf5f248f0dfdfff998f50999cc5811d",
+    "IMG_20240506_100537-5fc9251c248c.jpg": "fc40ccc9de6d2ba80d8ad0f7dc42d77a4d9fb1287920bfd0aa2246694e6c689e",
+    "IMG_20240506_100537.jpg": "8d097341838c3d4aff8b0fcc9988e7adfb7fcc946a24ed26a8316596a6655b64",
+    "IMG_20240506_100539-4685ab8c81da.jpg": "e1311ffc42b04d65ad63cc309dd8c6091a82a6b7eed429bf93b644bb88aff32c",
+    "IMG_20240506_100539.jpg": "7661b71ac4c35cbc756d204b30a7f2724d3a7ef73571bc2493e20850839715b5",
+    "IMG_20240506_101129.jpg": "f885f9b4379f683860acda1273eb01fddcc648f6e6175800391a938021c71c1a",
+    "IMG_20240506_115143-b6d9d056b8c5.jpg": "348ade3423137ff1863bae6769efdae82f7398fc22f24617427910a2c9a9c9ec",
+    "IMG_20240506_115143.jpg": "ef237dd09860dfd882068a5ed14311554e913db2978605a2a5b24d02d90fcd3d",
+    "IMG_20240506_115153-dee6c13f18d0.jpg": "09623200528306cf2b95cbb9e16d9b27096b0ba793119983131c9a1d6993b78a",
+    "IMG_20240506_115153.jpg": "07df5ab95635c8e3281003321e9783deb705dde39c3021018750d3adfdf5f0c2",
+    "IMG_20240506_155337-9c6e603dff0d.jpg": "79f33ca3d730e2ffd18c971a40c70e27986d44f0465bc109bbc19bd96d7e87a0",
+    "IMG_20240506_155337.jpg": "979a1e5864c12a03a45d59a73b00f9696270e566048bb0ab7dc83c84923bb2a7",
+    "IMG_20240506_180932.jpg": "81f8ccd184cdb898f0fee1a19719082311345d6d1681ee39994a9a9b6afcf791",
+    "IMG_20240506_180950-8694f73c2c62.jpg": "51a53162ed5272ac06afc1fa5bc0a00e7072d3d496d363cf5093dbdfa73801ce",
+    "IMG_20240506_180950.jpg": "8703fc9d9e7e3e3aa575d6e527a933d3f62a683ee71deb9e5cdf6b91dd22f9ef",
+    "IMG_20240506_181012.jpg": "bfef775fd7aee40913847cb1a7ffb10c9be99c9c3cb5bc66ddc518135727a377",
+    "IMG_20240506_200037.jpg": "9a2f5ee519b00707f0d7b5a17b8d55a9612ccadd4d610c008a0252b5a36e2831",
+    "IMG_20240506_200052.jpg": "19ff15e9efd0bad88106d672b15142380f0e33e6e3e152e0853bf83092f15a29",
+    "IMG_20240507_134002.jpg": "2f65f212666ed20aebbff626cdafb9f098432cf45915022a17031ea11f2f6d1d",
+    "IMG_20240507_134036.jpg": "c29dc1858a913f82f1005bab07b85584ea72d0280a7c6b431487dddd8cf63000",
+    "IMG_20240507_134103.jpg": "181732b5d92d1b1c66f4a4cd3141f1d8c5ded6babe8038a81eb92d7121803ff6",
+    "IMG_20240507_134107.jpg": "ead84ed4ca57077c713db033e2c3b979e1f7ed713228c6d112e386566c5f6060",
+    "IMG_20240507_134116.jpg": "c7c62a0d0926367df349b2aaae4643b95034d7519022ab1ffc126fae51ac46ef",
+    "IMG_20240507_134228.jpg": "2897376b7e8fbf890b8155a82c75f3625d680367fc07060ae5cf4fc3bb9672b3",
+    "IMG_20240507_134232.jpg": "3cd4a0274f6dd9d1809465c54b2f264b0ed41d148265c4ffc6793ae532da5b9f",
+    "IMG_20240507_134236.jpg": "876e7d14f99dae02ccd04a04377abf7137b9f9082410163e3c7db52499fd15b8",
+    "IMG_20240507_134956.jpg": "da7d069f200f09c69288c0e2fbf4c98e7ddc19c05e456c4d7cfec5a329bec6e7",
+    "IMG_20240507_134958.jpg": "de4e8018463ee7a15fd7e589e17795c9b725180a959823af99a2aee6ee3ff3eb",
+    "IMG_20240507_141632.jpg": "9d98fd6d294523b1c7a94de4dee76e4782439dd57ed0792eeb39efd2dfccea41",
+    "IMG_20240507_141649.jpg": "47b1cc21539f039420ef04ff95da809444b8f7a2c3617364b3f5a7d0ae4af746",
+    "IMG_20240507_141650.jpg": "bc447f7b53fce052586727fb76edbb6dee1fc0bec84bb915001bd6cabf94c7e3",
+    "IMG_20240507_141717.jpg": "cfda5f2ed7e0df559ee8859eb40f76274f7d34cbeb4b10e6817b11655015657d",
+    "IMG_20240507_141726.jpg": "79f824c6a8f91d1ac4d9cf663c9d0c41657fdd2d1048da972dc248c543daa619",
+    "IMG_20240507_222347.jpg": "3bf4a4ca4f77e4669d1a2a4368e994450ff4506851205b9fd43ac42df7494e69",
+    "IMG_20240507_222404.jpg": "73ec8296c2d15e2b9ef39135545e0a55b6c92ff4891ef8ea68ad54c15f0d973f",
+    "IMG_20240507_222811.jpg": "083f42be3b42b3cd4a03d946525381d2cac551f0e4cc924072ec59a8a4ef7e7b",
+    "IMG_20240507_222817.jpg": "d46cd63d716ba9ed098856c6bda243c37a07d3704bdc7ae160f2629c27934d3a",
+    "IMG_20240508_172727.jpg": "eb944f2b46c51c21d05704a037c4e4dd155a1f7d8af7cdaf72ce7d007b1fe32c",
+    "IMG_20240508_184147.jpg": "28035589fbe472b6f481c8ea25d3b5bf73c77262c46c07c3a624e143d59413ef",
+    "IMG_20240508_185958.jpg": "277678d6df0217a83e759622f566f0a870193d8f3ca30b8561ce883a8dedfbfb",
+    "IMG_20240508_190017.jpg": "1901a2cf87223300261ee2e89f218a45a746232e14caf41342670820121735bb",
+    "IMG_20240509_110449.jpg": "1391ec556ccd7d6855dbec095a73df94fe44cb8728af683319db17d53fc2ffb6",
+    "IMG_20240509_113022.jpg": "bd6870a28d81709d9614c563ef6227737032ca95199762adad71c57c778a0ba0",
+    "IMG_20240509_113538.jpg": "778545e4aaf463fb13a92e15e853bd1a2bb90ed8f27c1fca5081e9ed7606e4dc",
+    "IMG_20240509_113632.jpg": "531c954710b777fa3e80671a6d3be604c4ee1c73d1a089d88363cb493890fbdd",
+    "IMG_20240509_114226.jpg": "f6424958494ca40d14b7a9863e512420630a2bda74f1b9082eab9185fc6ad620",
+    "IMG_20240509_114232.jpg": "df3133081c7f83349c3a95ab3a54daf8decb7b6029b88ecd0b4edf282cf43671",
+    "IMG_20240509_114356.jpg": "e91ef249ac6ad30e44228773651929e5642b2afdec821a93ab1cdd31efb8a75f",
+    "IMG_20240509_114358.jpg": "042a0272b634264c806f93d1b025d251d72d356fe62a3155fe6dba09d1ff53cd",
+    "IMG_20240509_114359.jpg": "ae3c17a09c0410855ba17c6250a90683ae2b4cae3e5235f027fd8a7747335e17",
+    "IMG_20240509_114401.jpg": "e171f0d4d4f2ee08c4d0cc245fa1f84af6a3225b2cde1ca8128a4e392bf2b276",
+    "IMG_20240509_114414.jpg": "3be13d18bdcfb97748861f95af0cfa46e4fc7d613f5f39758b9ea53b3947e11a",
+    "IMG_20240509_114433.jpg": "f830f5041ee37cac4152b49d0cd6b78fc5c2dbe284534d31212be2bc2e4d5be8",
+    "IMG_20240509_125756.jpg": "6d23478f00ad66e434bac8c9a0a3b83bcea9b675f6a8d70944ab2942072903cb",
+    "IMG_20240509_125805.jpg": "491e329103498db882701f10f840a788431b45381261326ce367a846d8cedf02",
+    "IMG_20240509_125819.jpg": "6319135de53efda6aae08844dcbe3b7b1a309f4af75e3d3f142488279a0e4edc",
+    "IMG_20240509_125826.jpg": "f0a374913435753ecdcbe10c1062df777ea96b7f91968f177f43dd79355f9b80",
+    "IMG_20240509_125943.jpg": "c73cb0080c461bce22f17ddbe41e23aedf782bf0f413244a79bc40df512c8cd1",
+    "IMG_20240509_125950.jpg": "41a68853a3394a3ed931e40ba8c3591c509ac8a658040b8cde9b022c27f142fc",
+    "IMG_20240509_130039.jpg": "b57f565540feea69b2f073a366db197c36f519a9a8c89bb33c8b0627ae73a330",
+    "IMG_20240509_130052.jpg": "d3832a0a34d86d989ae08420a7d1d637e450d4d6b6388505b498e5f735152284",
+    "IMG_20240509_130326.jpg": "7fd31a0b3d0b16cca76a321e5cdfb37329bb5ade52b3686742618bb4d7cf06fa",
+    "IMG_20240509_130501.jpg": "f942eef422758f4e085e6c2f27459e86c1c48798b8dc66a6247f3da1b0b8e824",
+    "IMG_20240509_130524.jpg": "7d35a31c47569e1e3ef3971c209890c2c4ef33a215b3106c95ce23b1edd00e45",
+    "IMG_20240509_134819.jpg": "3e879b61824c529754b4aa3b01fdc98b7f855218b2003820aed0d7ab426ff4c6",
+    "IMG_20240509_134836.jpg": "5a8993331ee153b9dd7135ea1dbffa404ff8f619b735dcf94ff6caf257183ca6",
+    "IMG_20240509_134848.jpg": "d8cee65074ed1206fdbb3a47a24ce0bbf728ffed4cb2cfc790af109d6216f816",
+    "IMG_20240509_152213-5d39f766dbfc.jpg": "902fb2aa49ac9f8ccad83a687e81be4cf84c08e25801ea23254fe56038a98297",
+    "IMG_20240509_152213.jpg": "376c135dbd0a6141583a1da9eb59e926bec96c565bb64a695d749973e98ed0b8",
+    "IMG_20240509_152408-1b7bd6d07bf5.jpg": "e388e120b3ccdf574dce6203289ea0310037d2e9521c8010f75b4a9d405edd89",
+    "IMG_20240509_152408.jpg": "a5396ed2d127972944aa26f6ec99dc6a134cf763bc3a8e8bc8283eb8d3304d2b",
+    "IMG_20240509_152411-f07080f67def.jpg": "3b204e374eb1853982921b3601f984f0cd531dc344df293185e9b03650658335",
+    "IMG_20240509_152411.jpg": "93f99f71c6155273ee123d794a99833f74ea54a2cf20f5ece3cf284aead58aa9",
+    "IMG_20240509_152417-16a1dcd15f0e.jpg": "df356148d3481569048f1da7f4767bfae4fce2688ac2e3de004c48964fe0912f",
+    "IMG_20240509_152417.jpg": "c20565992bc6e6896335c21641028af2c9806a68f9f7ebc88618128a8dbb081c",
+    "IMG_20240509_152422-b52eea1bf58e.jpg": "59269f93b70a9428afa6e05909a823eb2bc3b1a502d369f5965cd1980d6ee79f",
+    "IMG_20240509_152422.jpg": "60e06063eba544b31dd3050cd6f2480b4f06a624e8d5e0a2b7393e062977a424",
+    "IMG_20240509_152507-92434794e79b.jpg": "7985aee8b47ac50c085716d840818dc850b52f3ce86fa0f1e0de6ee975de8bda",
+    "IMG_20240509_152507.jpg": "a96effd893fd928cc4a1c1c267235c15065dc51e53eab27bd0eb16b9dbb2c1f0",
+    "IMG_20240509_152514-8c7c0eec64fe.jpg": "62522c0a3a541169a7a1ee39d05fd3bff9740f11601147e32a32f7ddc0394584",
+    "IMG_20240509_152514.jpg": "ebb633beba8b0fe78c55e2c7c56f3d48cbdc3bfb5632ded59a97ac11c8e1170a",
+    "IMG_20240509_152552-6c276c1af937.jpg": "22b9d895243482630eb497da965d355752743bfaa7bba8848402335a0f68be01",
+    "IMG_20240509_152552.jpg": "19b69b4c46ecc35e75f409d77092ffe4fab7002840a1d9a7cf06b3b92fecfd18",
+    "IMG_20240509_152553-33b2e838cb66.jpg": "82ace463f50b58e7fb20d8c107e79f3d6e232f9032d448957094a0c382111aaa",
+    "IMG_20240509_152553.jpg": "e820ef08ff7a822d7ff6da75c4e864c876b3dcd49e6f0ec5a6ebe821c56c0c6f",
+    "IMG_20240509_152559-8c1c9c471e7a.jpg": "1e0db66a9f31647f9cae49271209c25f814a74600da6226d66145d2ca9de3161",
+    "IMG_20240509_152559.jpg": "dc9c95b67a95d782ec33d5ac8d8017a79703c0462ec7fb98eafd79d4d650551b",
+    "IMG_20240509_152613-a7cb1a1368bd.jpg": "18aeafaed79cd4552a84ba42e8a9d5b6968123efbc31c60411ecaef4d3a2e329",
+    "IMG_20240509_152613.jpg": "5d24fcdbf7f024f6bcfbd3059e2247bf8a6c7db684dd099ec7b8ef61bad59045",
+    "IMG_20240509_152654-d8957463a5fc.jpg": "754f6912fe39deb8191a611acd5672b171f577a968e8a6b34485d5b62c48bbd3",
+    "IMG_20240509_152654.jpg": "fefe475d25112d47fad443ea60c96481672727f3aaa27aec1b8f54f6155af805",
+    "IMG_20240509_153452.jpg": "8fc642755286107ebe345b6440995fbb68ebb4a225aff91bb2eb8d76cbe6fc8c",
+    "IMG_20240509_153456-25dd0624d4e8.jpg": "14704644b4316feb87eb80953db2e3aea867e0f86f7db282823b43f94d7f69dc",
+    "IMG_20240509_153456.jpg": "41ff38cce2e8b49c435e84904575a7065db899105970ce172343bc917ae1e7af",
+    "IMG_20240509_153503-502048694f19.jpg": "f9729876aa83d7484311de7a2822fb178236e0603f69bd370810f9299e3fb31c",
+    "IMG_20240509_153503.jpg": "b0b13f2a1403aee22fe48d602bc98a1109891b5c3d8508208612dd66657f9467",
+    "IMG_20240509_153543-19056007e974.jpg": "1101e010128bdcfa8fa109911054e96ff13dbe648d86a1be102bdedc60b4e74a",
+    "IMG_20240509_153543.jpg": "b421fc6531314c5adaa6e7d07768ba078418de148048da4b5083cfa99315a3da",
+    "IMG_20240509_153543_1.jpg": "489fd6de4c896869af8706d8def9dddb72611fdee1d25d1f5829ace02688c8e4",
+    "IMG_20240509_153548-dd351a315184.jpg": "feb73b3b5c45ec143e8d652e68f572a454c436c0b4ef2be6651a8c95b8c3a916",
+    "IMG_20240509_153548.jpg": "33bf60e9b3cc0e4f125c0fa74b825a35181a50f8c708afe5285b9bffc475c040",
+    "IMG_20240509_153553_1-78e86f46c8d9.jpg": "fa5dcee410178627efe293e7df88b97a3134842853e9dcc11338a7fbbe6c7075",
+    "IMG_20240509_153553_1.jpg": "2a66024be8b3f025a525f537ce42f35e7fec9a833f93da95f41239b0e6c0e79e",
+    "IMG_20240509_153558-ec41d298b800.jpg": "d1f871a28a6f4e89083eca3b1051ecaf42f9b86164f4f931bfa8c3cb3110dac8",
+    "IMG_20240509_153558.jpg": "2bd3add4eaac1d3734d0093f863f3737ce18b3c1409c60b4032481f1dddeafcd",
+    "IMG_20240509_153629-3dafc89d7c8e.jpg": "c10b65e3da2ec434e9b4c712b3ea74d9dadab335efa43289997fcdbe6c5fb8c9",
+    "IMG_20240509_153629.jpg": "09a6a90365388bf1e1737242bbf23be4a5130cef4727bc880ca8ac47ac2dc0df",
+    "IMG_20240509_153644-66468e3ea007.jpg": "df17585d71c7f4f2e2e29289ba4ce74c22411c9e94e61bc5e21e294fc389c572",
+    "IMG_20240509_153644.jpg": "77f6ca39cc5dca31eeecbbec1c74a581096e9681863f85adc87371137961973f",
+    "IMG_20240509_153646-2c0380ce1c7a.jpg": "cdf6f3d9cf681f231009f0b39ed464cd4d523b3792f61972aeed5ccd0bca8cd8",
+    "IMG_20240509_153646.jpg": "6099589f4bcbc2ee8eb1887ce74a0a917d14fd2a060078388a0fbf93cb1199aa",
+    "IMG_20240509_153656-ea9abb339919.jpg": "909536b0d514031a160ca27da610f0a000b8e1271c63b987bc3b8a4d63a6f385",
+    "IMG_20240509_153656.jpg": "bcf41d99b2f7b5a748848d8a64fe79e65d0ecd931a184b86d6fea1f0e303e905",
+    "IMG_20240509_153729-1fdda149e9f3.jpg": "859d5440ef5bda8eb492fb7b5192b01e26f97ee44f3f50c07c30f1363ddf728b",
+    "IMG_20240509_153729.jpg": "6063e6e409da941fab7aaae59ef3fd9661978189bbdd5d45c210dc98c2276e35",
+    "Screenshot_2024-05-07-22-37-17-028_com.miui.gallery.jpg": "9fafee828a48a3828c542f287f21f21a801cd1642847795ca1024c18d3c40d0c",
+    "mmexport1714990818445.jpg": "b8dad8bbf32410fcfb64fa09803cd0e611ec9f32b6c4ab471a652f8d3b21605d"
+  },
+  "story_names": [
+    "IMG_20240503_180134.jpg",
+    "IMG_20240504_154139.jpg",
+    "IMG_20240504_154144.jpg",
+    "IMG_20240504_154214.jpg",
+    "IMG_20240504_161223.jpg",
+    "IMG_20240504_183555.jpg",
+    "IMG_20240504_232713.jpg",
+    "IMG_20240505_103326.jpg",
+    "IMG_20240505_103642.jpg",
+    "IMG_20240505_104201.jpg",
+    "IMG_20240505_151315.jpg",
+    "IMG_20240506_172220.jpg",
+    "IMG_20240506_180648.jpg",
+    "IMG_20240506_200631.jpg",
+    "IMG_20240507_092618.jpg",
+    "IMG_20240507_092621.jpg",
+    "IMG_20240507_093002.jpg",
+    "IMG_20240507_105118.jpg",
+    "IMG_20240507_222156.jpg",
+    "IMG_20240507_222811.jpg",
+    "IMG_20240509_101622.jpg",
+    "IMG_20240509_102226.jpg",
+    "IMG_20240509_114359.jpg",
+    "IMG_20240509_114401.jpg",
+    "IMG_20240509_152417.jpg"
+  ],
+  "mappings": {
+    "IMG_20240503_093552.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1017.07
+    },
+    "IMG_20240503_093559.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1017.07
+    },
+    "IMG_20240503_095424.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 875.464
+    },
+    "IMG_20240503_095703.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 735.271
+    },
+    "IMG_20240503_095708.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 735.271
+    },
+    "IMG_20240503_095730.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 735.271
+    },
+    "IMG_20240503_095735.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 735.271
+    },
+    "IMG_20240503_095922.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 705.373
+    },
+    "IMG_20240503_100052.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 685.368
+    },
+    "IMG_20240503_100148.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 673.916
+    },
+    "IMG_20240503_104902.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 57.712
+    },
+    "IMG_20240503_105008.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 45.575
+    },
+    "IMG_20240503_105020.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 45.575
+    },
+    "IMG_20240503_105039.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 38.325
+    },
+    "IMG_20240503_105055.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 34.037
+    },
+    "IMG_20240503_105203.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 28.648
+    },
+    "IMG_20240503_105208.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 18.325
+    },
+    "IMG_20240503_105219.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 18.325
+    },
+    "IMG_20240503_105224.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 18.325
+    },
+    "IMG_20240503_105343.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "exact"
+    },
+    "IMG_20240503_105752.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 26.913
+    },
+    "IMG_20240503_105757.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 53.786
+    },
+    "IMG_20240503_110413.jpg": {
+      "source": "IMG_20240503_105343.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 98.205
+    },
+    "IMG_20240503_110649.jpg": {
+      "source": "IMG_20240503_180134.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 65.406
+    },
+    "IMG_20240503_162530-f6d736329dce.jpg": {
+      "source": "IMG_20240503_162530.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240503_162530.jpg": {
+      "source": "IMG_20240503_162530.jpg",
+      "method": "exact"
+    },
+    "IMG_20240503_180134-cd51ed7be068.jpg": {
+      "source": "IMG_20240503_180134.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240503_180134.jpg": {
+      "source": "IMG_20240503_180134.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_121047.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 147.682
+    },
+    "IMG_20240504_121048.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 145.259
+    },
+    "IMG_20240504_121049.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 145.259
+    },
+    "IMG_20240504_122025.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 145.622
+    },
+    "IMG_20240504_122649.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 144.477
+    },
+    "IMG_20240504_122652.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 144.477
+    },
+    "IMG_20240504_130851.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 111.465
+    },
+    "IMG_20240504_132421.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 107.069
+    },
+    "IMG_20240504_132802.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_132831.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133033.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133041.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133101.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133104.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133143-f558aec17b7d.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133143.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133147-0c0a78b9ffaa.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133147.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 79.24
+    },
+    "IMG_20240504_133547.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 65.721
+    },
+    "IMG_20240504_133548.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 65.721
+    },
+    "IMG_20240504_135423.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 40.193
+    },
+    "IMG_20240504_135425.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 40.193
+    },
+    "IMG_20240504_153542.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240504_154127.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_154139-f900f226edfa.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_154139.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_154144-91f76fe8ec64.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_154144.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_154214-e6b8c19f294e.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_154214.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.488
+    },
+    "IMG_20240504_155134.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240504_155145.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240504_155147.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240504_155645.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240504_155726.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_155728.jpg": {
+      "source": "IMG_20240504_155728.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_160045-d0d46fd09f13.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160045.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160051-f5ce7fb951e2.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160051.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160053.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160055.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160058-fae388b21b2e.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160058.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.251
+    },
+    "IMG_20240504_160246.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.543
+    },
+    "IMG_20240504_161005.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.486
+    },
+    "IMG_20240504_161011.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.486
+    },
+    "IMG_20240504_161056.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.812
+    },
+    "IMG_20240504_161223-978cac64d5ed.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.812
+    },
+    "IMG_20240504_161223.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.812
+    },
+    "IMG_20240504_162002.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.394
+    },
+    "IMG_20240504_162058.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.394
+    },
+    "IMG_20240504_164715.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 17.17
+    },
+    "IMG_20240504_165210.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_165237-ea757d5bf337.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_165237.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_165238.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_165238_1.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_165600.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_165602.jpg": {
+      "source": "IMG_20240504_155726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 22.622
+    },
+    "IMG_20240504_182418.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.041
+    },
+    "IMG_20240504_183547.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.059
+    },
+    "IMG_20240504_183555-2907c01edfef.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.059
+    },
+    "IMG_20240504_183555.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.059
+    },
+    "IMG_20240504_184649-5de333928bb1.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.073
+    },
+    "IMG_20240504_184649.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.073
+    },
+    "IMG_20240504_185257-bf28ab3f42d8.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.043
+    },
+    "IMG_20240504_185257.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.043
+    },
+    "IMG_20240504_185258-3a6f4743fc1f.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.043
+    },
+    "IMG_20240504_185258.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.043
+    },
+    "IMG_20240504_190337.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_190354-7f3340244db9.jpg": {
+      "source": "IMG_20240504_190354.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240504_190354.jpg": {
+      "source": "IMG_20240504_190354.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_190553-29d577204cc4.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240504_190553.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_190555-bda87501429d.jpg": {
+      "source": "IMG_20240504_190555.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240504_190555.jpg": {
+      "source": "IMG_20240504_190555.jpg",
+      "method": "exact"
+    },
+    "IMG_20240504_190729.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240504_192453-968c1b843b28.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.313
+    },
+    "IMG_20240504_192453.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.313
+    },
+    "IMG_20240504_192459.jpg": {
+      "source": "IMG_20240504_190553.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.313
+    },
+    "IMG_20240504_200505-f8378ddef5d2.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.08
+    },
+    "IMG_20240504_200505.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.08
+    },
+    "IMG_20240504_200510.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.08
+    },
+    "IMG_20240504_232713-aeb7e83d54f2.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 21.933
+    },
+    "IMG_20240504_232713.jpg": {
+      "source": "IMG_20240504_190337.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 21.933
+    },
+    "IMG_20240505_102032.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.82
+    },
+    "IMG_20240505_102549.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.176
+    },
+    "IMG_20240505_102620.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_102625.jpg": {
+      "source": "IMG_20240505_102625.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_102631.jpg": {
+      "source": "IMG_20240505_102631.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_103325.jpg": {
+      "source": "IMG_20240505_103325.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_103326-51b74db57877.jpg": {
+      "source": "IMG_20240505_103326.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240505_103326.jpg": {
+      "source": "IMG_20240505_103326.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_103642-681f034029e0.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 5.367
+    },
+    "IMG_20240505_103642.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 5.367
+    },
+    "IMG_20240505_104201-a261a3e9d3d7.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.079
+    },
+    "IMG_20240505_104201.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.079
+    },
+    "IMG_20240505_104509.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 8.764
+    },
+    "IMG_20240505_110126.jpg": {
+      "source": "IMG_20240505_102620.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 13.741
+    },
+    "IMG_20240505_124401.jpg": {
+      "source": "IMG_20240506_100537-5fc9251c248c.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.75
+    },
+    "IMG_20240505_125645.jpg": {
+      "source": "IMG_20240506_100344.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.869
+    },
+    "IMG_20240505_143614.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_144911.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.523
+    },
+    "IMG_20240505_150115.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_150453.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_150456.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_150655.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_151310.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_151315-a859ec61f1eb.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_151315.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.443
+    },
+    "IMG_20240505_152001.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.037
+    },
+    "IMG_20240505_152009.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.037
+    },
+    "IMG_20240505_152015.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.037
+    },
+    "IMG_20240505_162252.jpg": {
+      "source": "IMG_20240505_163527.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.022
+    },
+    "IMG_20240505_162254.jpg": {
+      "source": "IMG_20240505_163527.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.022
+    },
+    "IMG_20240505_162303.jpg": {
+      "source": "IMG_20240505_163527.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.022
+    },
+    "IMG_20240505_162901.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.004
+    },
+    "IMG_20240505_162903.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.004
+    },
+    "IMG_20240505_162945.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.004
+    },
+    "IMG_20240505_163105.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.004
+    },
+    "IMG_20240505_163426.jpg": {
+      "source": "IMG_20240505_163714.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240505_163527.jpg": {
+      "source": "IMG_20240505_163527.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_163542.jpg": {
+      "source": "IMG_20240505_163542.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_163555.jpg": {
+      "source": "IMG_20240505_163555.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_163714.jpg": {
+      "source": "IMG_20240505_163714.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_163733.jpg": {
+      "source": "IMG_20240505_163714.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240505_164114.jpg": {
+      "source": "IMG_20240505_163714.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.022
+    },
+    "IMG_20240505_164612.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "exact"
+    },
+    "IMG_20240505_165501.jpg": {
+      "source": "IMG_20240505_163527.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.007
+    },
+    "IMG_20240505_165503.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_165508.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_170812.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_170817.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_173413.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_173420.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_173425.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.036
+    },
+    "IMG_20240505_174634.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240505_174950.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240505_175308.jpg": {
+      "source": "IMG_20240505_163527.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.005
+    },
+    "IMG_20240505_175517.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175708.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175729.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175733.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175742.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175749.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175751.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175801.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175806.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175807.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175815.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175820.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175821.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175824.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175825.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175826.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_175827.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.046
+    },
+    "IMG_20240505_180033.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.116
+    },
+    "IMG_20240505_180108-160a2bf5b604.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.116
+    },
+    "IMG_20240505_180108.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.146
+    },
+    "IMG_20240505_180435.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.176
+    },
+    "IMG_20240505_180437-adcb11f65824.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.176
+    },
+    "IMG_20240505_180437.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.176
+    },
+    "IMG_20240505_180449-ba3969ebb98b.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.176
+    },
+    "IMG_20240505_180449.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.176
+    },
+    "IMG_20240505_180454-2b087d0a4998.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180454.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180517-04b144ec8b77.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180517.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180536-7a0e038ecaf5.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180536.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180542-805543232119.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180542.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180633-24167a51d560.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180633.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180641-1fdcdb9b58a1.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180641.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180647-c714c8b522df.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180647.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180648-ea4cd78df35b.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.18
+    },
+    "IMG_20240505_180648.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.247
+    },
+    "IMG_20240505_180731.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.247
+    },
+    "IMG_20240505_180743-2ee5c56699e3.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.314
+    },
+    "IMG_20240505_180743.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.314
+    },
+    "IMG_20240505_180747-9da1e54a871b.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.314
+    },
+    "IMG_20240505_180747.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.314
+    },
+    "IMG_20240505_180753.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.314
+    },
+    "IMG_20240505_181110-192a5602e285.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.491
+    },
+    "IMG_20240505_181110.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.491
+    },
+    "IMG_20240505_181116-b574d7f4dd6f.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.491
+    },
+    "IMG_20240505_181116.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.491
+    },
+    "IMG_20240505_181121-c982033fc448.jpg": {
+      "source": "IMG_20240505_164612.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.491
+    },
+    "IMG_20240505_181121.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.134
+    },
+    "IMG_20240505_192218-1a67fd142d1a.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.134
+    },
+    "IMG_20240505_192218.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.063
+    },
+    "IMG_20240505_192225-ece0190dedb2.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.063
+    },
+    "IMG_20240505_192225.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.063
+    },
+    "IMG_20240505_192228-c166d0320e7b.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.063
+    },
+    "IMG_20240505_192228.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.063
+    },
+    "IMG_20240505_221949-431abe74e58a.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.063
+    },
+    "IMG_20240505_221949.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.066
+    },
+    "IMG_20240505_222337-cae7a4f7cf7e.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.066
+    },
+    "IMG_20240505_222337.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.07
+    },
+    "IMG_20240505_222344-420a73642001.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.07
+    },
+    "IMG_20240505_222344.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.201
+    },
+    "IMG_20240506_003114.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.334
+    },
+    "IMG_20240506_003336-1276570c9546.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.4
+    },
+    "IMG_20240506_003336.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.473
+    },
+    "IMG_20240506_003445-1a772aeb509e.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.455
+    },
+    "IMG_20240506_003445.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.437
+    },
+    "IMG_20240506_003732-2d2cc7195088.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.444
+    },
+    "IMG_20240506_003732.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.452
+    },
+    "IMG_20240506_003843.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.408
+    },
+    "IMG_20240506_004016-64e83c9f0593.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.492
+    },
+    "IMG_20240506_004016.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.461
+    },
+    "IMG_20240506_004444-01c1ac870fd3.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.434
+    },
+    "IMG_20240506_004444.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.434
+    },
+    "IMG_20240506_004603-afe265c86f9e.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.434
+    },
+    "IMG_20240506_004603.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.434
+    },
+    "IMG_20240506_004751-bdcc28bf37d4.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.449
+    },
+    "IMG_20240506_004751.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.467
+    },
+    "IMG_20240506_004940-4fd9518c8a21.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.467
+    },
+    "IMG_20240506_004940.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.486
+    },
+    "IMG_20240506_005052-1a4f4efea47a.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.461
+    },
+    "IMG_20240506_005052.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.436
+    },
+    "IMG_20240506_005331.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.46
+    },
+    "IMG_20240506_005513.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.478
+    },
+    "IMG_20240506_093436-b07d5b346b4b.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_093436.jpg": {
+      "source": "IMG_20240506_093436.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_100341.jpg": {
+      "source": "IMG_20240506_100341.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_100342-d7bd0f717c32.jpg": {
+      "source": "IMG_20240506_100342.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_100342.jpg": {
+      "source": "IMG_20240506_100342.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_100344-79dd189d96e8.jpg": {
+      "source": "IMG_20240506_100344.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_100344.jpg": {
+      "source": "IMG_20240506_100344.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_100529-7cf4436407dd.jpg": {
+      "source": "IMG_20240506_100344.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_100529.jpg": {
+      "source": "IMG_20240506_100537-5fc9251c248c.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_100537-7182a603c07c.jpg": {
+      "source": "IMG_20240506_100537.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_100537.jpg": {
+      "source": "IMG_20240506_100537.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_100539-b30e5e111457.jpg": {
+      "source": "IMG_20240506_100539.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_100539.jpg": {
+      "source": "IMG_20240506_100539.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_101129-e8133bd77155.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_101129.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_101132-8fcfb0e35bc1.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101132.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101138-d7d2a8ab7bcf.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101138.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101151-a6206f2574eb.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101151.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101155-72572ebd58cc.jpg": {
+      "source": "IMG_20240506_101129.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_101155.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.224
+    },
+    "IMG_20240506_105551-16abd477d2aa.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.224
+    },
+    "IMG_20240506_105551.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.222
+    },
+    "IMG_20240506_105939-bd3080556fb0.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.22
+    },
+    "IMG_20240506_105939.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.218
+    },
+    "IMG_20240506_105947.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.218
+    },
+    "IMG_20240506_112847-dfb3b5a2f169.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.218
+    },
+    "IMG_20240506_112847.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.217
+    },
+    "IMG_20240506_112910-cae3c421b151.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.949
+    },
+    "IMG_20240506_112910-fb9905f5861e.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_112910.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_113231-d52d83dcd898.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_113231-fd7193701a6e.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_113231.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_113255-bde5b49ebac7.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_113255.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114111-c2bfbe429311.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114111.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114114-a9cdfecce0db.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114114.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114215-7104e22be0ed.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114215.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114601-b31ac34aa75d.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114601.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114714-caebcab19bbd.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_114714.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.681
+    },
+    "IMG_20240506_115029-a523b12e9bbb.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.683
+    },
+    "IMG_20240506_115029.jpg": {
+      "source": "IMG_20240506_100539-4685ab8c81da.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.684
+    },
+    "IMG_20240506_155337.jpg": {
+      "source": "IMG_20240506_155337.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_164052-b63358013704.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.895
+    },
+    "IMG_20240506_164052.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.895
+    },
+    "IMG_20240506_164055-3f96977790fe.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.895
+    },
+    "IMG_20240506_164055.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.895
+    },
+    "IMG_20240506_164056-e866de798402.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.895
+    },
+    "IMG_20240506_164056.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.895
+    },
+    "IMG_20240506_170934-194905e2430d.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.932
+    },
+    "IMG_20240506_170934.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.932
+    },
+    "IMG_20240506_170939-7171baf8334f.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.932
+    },
+    "IMG_20240506_170939.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.935
+    },
+    "IMG_20240506_171337-a744a7591853.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.935
+    },
+    "IMG_20240506_171337.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.938
+    },
+    "IMG_20240506_171350-852dcc1e556a.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.938
+    },
+    "IMG_20240506_171350.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.729
+    },
+    "IMG_20240506_172152-30cffc33176c.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172152.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172154-28a369a6dd85.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172154-3f9352fb5099.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172154.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172201-bcd0d4d48556.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172201.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172203.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172208-d43db9376645.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172208.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172218-d7213963e6dd.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172218.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172220-91874c2409f1.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.521
+    },
+    "IMG_20240506_172220-d83bd18bac2f.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.298
+    },
+    "IMG_20240506_172220.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.298
+    },
+    "IMG_20240506_174535.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.298
+    },
+    "IMG_20240506_174537.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.298
+    },
+    "IMG_20240506_174614-f82fdf871c00.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.477
+    },
+    "IMG_20240506_174614.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.477
+    },
+    "IMG_20240506_174621-df89120b3038.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.477
+    },
+    "IMG_20240506_174621.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.477
+    },
+    "IMG_20240506_175906-9cf60d586eaf.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.344
+    },
+    "IMG_20240506_175906.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.271
+    },
+    "IMG_20240506_175912-05bb1df4d4d1.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.271
+    },
+    "IMG_20240506_175912.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.271
+    },
+    "IMG_20240506_180307-3d880b357ad3.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.246
+    },
+    "IMG_20240506_180307.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.227
+    },
+    "IMG_20240506_180648-78da9b482aad.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.17
+    },
+    "IMG_20240506_180648-bbd7ea8c1da3.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.113
+    },
+    "IMG_20240506_180648.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.112
+    },
+    "IMG_20240506_180732-b80bdf514505.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.122
+    },
+    "IMG_20240506_180732-de03fdf0e435.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.122
+    },
+    "IMG_20240506_180732.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.122
+    },
+    "IMG_20240506_180929-ff7b4eec9048.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.061
+    },
+    "IMG_20240506_180929.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_180932-a2b86f9831a2.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_180932.jpg": {
+      "source": "IMG_20240506_180932.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_180950-1f53bcca2e36.jpg": {
+      "source": "IMG_20240506_180950.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240506_180950.jpg": {
+      "source": "IMG_20240506_180950.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_200037.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_200052.jpg": {
+      "source": "IMG_20240506_200052.jpg",
+      "method": "exact"
+    },
+    "IMG_20240506_200110.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240506_200631-16108e4461c2.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.15
+    },
+    "IMG_20240506_200631.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.15
+    },
+    "IMG_20240507_092616.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.008
+    },
+    "IMG_20240507_092618-c559c70d3f3e.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.008
+    },
+    "IMG_20240507_092618.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.008
+    },
+    "IMG_20240507_092621-743bb75a26ec.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.008
+    },
+    "IMG_20240507_092621.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.008
+    },
+    "IMG_20240507_093002-76a2a594d7fb.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.012
+    },
+    "IMG_20240507_093002.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.012
+    },
+    "IMG_20240507_105118-12e98f3f21c8.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.128
+    },
+    "IMG_20240507_105118.jpg": {
+      "source": "IMG_20240506_200037.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.128
+    },
+    "IMG_20240507_130130.jpg": {
+      "source": "IMG_20240507_141726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.274
+    },
+    "IMG_20240507_133821.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 5.249
+    },
+    "IMG_20240507_133836.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 5.249
+    },
+    "IMG_20240507_133850.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.817
+    },
+    "IMG_20240507_133856.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.817
+    },
+    "IMG_20240507_133958.jpg": {
+      "source": "IMG_20240507_134036.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240507_134036.jpg": {
+      "source": "IMG_20240507_134036.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_134103.jpg": {
+      "source": "IMG_20240507_134103.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_134107.jpg": {
+      "source": "IMG_20240507_134107.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_134116-16f4ae4e16f9.jpg": {
+      "source": "IMG_20240507_134116.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240507_134116.jpg": {
+      "source": "IMG_20240507_134116.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_134958.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_135849.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.103
+    },
+    "IMG_20240507_135918-f2cf195dacc1.jpg": {
+      "source": "IMG_20240507_141726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.057
+    },
+    "IMG_20240507_135918.jpg": {
+      "source": "IMG_20240507_141726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.057
+    },
+    "IMG_20240507_140646.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.18
+    },
+    "IMG_20240507_140701.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.18
+    },
+    "IMG_20240507_140705.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.18
+    },
+    "IMG_20240507_140924_1.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.18
+    },
+    "IMG_20240507_140927.jpg": {
+      "source": "IMG_20240507_134958.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.18
+    },
+    "IMG_20240507_141726.jpg": {
+      "source": "IMG_20240507_141726.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_141728.jpg": {
+      "source": "IMG_20240507_141726.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240507_222043.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.106
+    },
+    "IMG_20240507_222156-d253381c5ef0.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.106
+    },
+    "IMG_20240507_222156.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.106
+    },
+    "IMG_20240507_222811-2b796fe19397.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240507_222811.jpg": {
+      "source": "IMG_20240507_222811.jpg",
+      "method": "exact"
+    },
+    "IMG_20240507_222817.jpg": {
+      "source": "IMG_20240507_222817.jpg",
+      "method": "exact"
+    },
+    "IMG_20240508_172727-2f1d2d3e9fe7.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240508_172727.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "exact"
+    },
+    "IMG_20240508_184147.jpg": {
+      "source": "IMG_20240508_184147.jpg",
+      "method": "exact"
+    },
+    "IMG_20240508_185958.jpg": {
+      "source": "IMG_20240508_185958.jpg",
+      "method": "exact"
+    },
+    "IMG_20240508_190017.jpg": {
+      "source": "IMG_20240508_190017.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_101523.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.693
+    },
+    "IMG_20240509_101622-3c31328e2df9.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.693
+    },
+    "IMG_20240509_101622.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.693
+    },
+    "IMG_20240509_102226-8cf14fff5525.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.622
+    },
+    "IMG_20240509_102226.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.622
+    },
+    "IMG_20240509_102739.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.588
+    },
+    "IMG_20240509_102925.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.563
+    },
+    "IMG_20240509_103323.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.441
+    },
+    "IMG_20240509_103328.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.441
+    },
+    "IMG_20240509_105128.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.517
+    },
+    "IMG_20240509_105355.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.643
+    },
+    "IMG_20240509_110447.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_110449.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_113022.jpg": {
+      "source": "IMG_20240509_113022.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_114359-de15ad49ea9d.jpg": {
+      "source": "IMG_20240509_114359.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_114359.jpg": {
+      "source": "IMG_20240509_114359.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_114401-ebf21dc67b89.jpg": {
+      "source": "IMG_20240509_114401.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_114401.jpg": {
+      "source": "IMG_20240509_114401.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_114433.jpg": {
+      "source": "IMG_20240509_114433.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_120327.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.144
+    },
+    "IMG_20240509_120334.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.144
+    },
+    "IMG_20240509_120401-159805494d8f.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.144
+    },
+    "IMG_20240509_120401.jpg": {
+      "source": "IMG_20240509_114359.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.531
+    },
+    "IMG_20240509_120555-039df53e7c0c.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120555.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120603-8d1952f68c55.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120603.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120613-0ca2c52cee23.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120613.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120615-15c100745483.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.254
+    },
+    "IMG_20240509_120615.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.007
+    },
+    "IMG_20240509_120945-c005d64d02fe.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.007
+    },
+    "IMG_20240509_120945.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.994
+    },
+    "IMG_20240509_120951-c311e0c30c3d.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.994
+    },
+    "IMG_20240509_120951.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.994
+    },
+    "IMG_20240509_123828.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.994
+    },
+    "IMG_20240509_124144.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125022.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.306
+    },
+    "IMG_20240509_125027.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.306
+    },
+    "IMG_20240509_125049.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.306
+    },
+    "IMG_20240509_125242.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125245.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125247.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125356.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125401.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125405.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125753.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_125756.jpg": {
+      "source": "IMG_20240509_125756.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_130039.jpg": {
+      "source": "IMG_20240509_130039.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_130501.jpg": {
+      "source": "IMG_20240509_130501.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_130524.jpg": {
+      "source": "IMG_20240509_130524.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_134819.jpg": {
+      "source": "IMG_20240509_134819.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_134836.jpg": {
+      "source": "IMG_20240509_134836.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_134848.jpg": {
+      "source": "IMG_20240509_134848.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_141749.jpg": {
+      "source": "IMG_20240509_134819.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 15.263
+    },
+    "IMG_20240509_142305.jpg": {
+      "source": "IMG_20240509_134819.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 15.264
+    },
+    "IMG_20240509_145855.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 5.034
+    },
+    "IMG_20240509_145912.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 5.034
+    },
+    "IMG_20240509_145915.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_145919.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_145921.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_145947.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_150004.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_150007.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_150011.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.306
+    },
+    "IMG_20240509_150337.jpg": {
+      "source": "IMG_20240509_152213-5d39f766dbfc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.886
+    },
+    "IMG_20240509_150340-b0f4b369a6d9.jpg": {
+      "source": "IMG_20240509_152213-5d39f766dbfc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.886
+    },
+    "IMG_20240509_150340.jpg": {
+      "source": "IMG_20240509_152213-5d39f766dbfc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.886
+    },
+    "IMG_20240509_150352-0e9a1074b8d0.jpg": {
+      "source": "IMG_20240509_152213-5d39f766dbfc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 3.886
+    },
+    "IMG_20240509_150352.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.349
+    },
+    "IMG_20240509_151018-e4fa2aa6d1bf.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.212
+    },
+    "IMG_20240509_151018.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.212
+    },
+    "IMG_20240509_151039-03f0d0870bce.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.212
+    },
+    "IMG_20240509_151039.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.212
+    },
+    "IMG_20240509_151154-9a20a50a4886.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 7.848
+    },
+    "IMG_20240509_151154.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 8.486
+    },
+    "IMG_20240509_152024.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.628
+    },
+    "IMG_20240509_152036-9407da354f91.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 4.628
+    },
+    "IMG_20240509_152036.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.013
+    },
+    "IMG_20240509_152037-1ca5ffba1235.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 2.013
+    },
+    "IMG_20240509_152037.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.639
+    },
+    "IMG_20240509_152044-baa543271fe3.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 1.267
+    },
+    "IMG_20240509_152044.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.619
+    },
+    "IMG_20240509_152213-ffffcc75c13f.jpg": {
+      "source": "IMG_20240509_152213.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152213.jpg": {
+      "source": "IMG_20240509_152213.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152408-571d19721532.jpg": {
+      "source": "IMG_20240509_152408.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152408.jpg": {
+      "source": "IMG_20240509_152408.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152411-24e80b0ad3dd.jpg": {
+      "source": "IMG_20240509_152411.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152411.jpg": {
+      "source": "IMG_20240509_152411.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152417-a7c92edff29e.jpg": {
+      "source": "IMG_20240509_152417.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152417-d48c13067742.jpg": {
+      "source": "IMG_20240509_152417.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152417-ff9a485d8bd0.jpg": {
+      "source": "IMG_20240509_152417.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152417.jpg": {
+      "source": "IMG_20240509_152417.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152422-055e2166f918.jpg": {
+      "source": "IMG_20240509_152422.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152422.jpg": {
+      "source": "IMG_20240509_152422.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152507-d57183b8fba3.jpg": {
+      "source": "IMG_20240509_152507.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152507.jpg": {
+      "source": "IMG_20240509_152507.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152514-0412d3fd2134.jpg": {
+      "source": "IMG_20240509_152514.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152514.jpg": {
+      "source": "IMG_20240509_152514.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152552-e16ed18067bf.jpg": {
+      "source": "IMG_20240509_152552.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152552.jpg": {
+      "source": "IMG_20240509_152552.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152559-efd7aa6c7b6a.jpg": {
+      "source": "IMG_20240509_152559.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_152559.jpg": {
+      "source": "IMG_20240509_152559.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152654.jpg": {
+      "source": "IMG_20240509_152654.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_152810-04da9bc50a83.jpg": {
+      "source": "IMG_20240509_152654-d8957463a5fc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_152810-6b046548275e.jpg": {
+      "source": "IMG_20240509_152654-d8957463a5fc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_152810-a2456fa443ef.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.035
+    },
+    "IMG_20240509_152810.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.035
+    },
+    "IMG_20240509_152919.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.069
+    },
+    "IMG_20240509_153111.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.069
+    },
+    "IMG_20240509_153449-9d6ce5b29c30.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_153449.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_153452-d2ed100f9ad6.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153452.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153456-ef10d805cb31.jpg": {
+      "source": "IMG_20240509_153456.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153456.jpg": {
+      "source": "IMG_20240509_153456.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153503-9a910c1b315b.jpg": {
+      "source": "IMG_20240509_153503.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153503.jpg": {
+      "source": "IMG_20240509_153503.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153629-7a2203787f64.jpg": {
+      "source": "IMG_20240509_153629.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153629.jpg": {
+      "source": "IMG_20240509_153629.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153644-1a75bd272b4d.jpg": {
+      "source": "IMG_20240509_153644.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153644.jpg": {
+      "source": "IMG_20240509_153644.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153646-9907f0c20824.jpg": {
+      "source": "IMG_20240509_153646.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153646.jpg": {
+      "source": "IMG_20240509_153646.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153656-cdb8c6f4680b.jpg": {
+      "source": "IMG_20240509_153656.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153656.jpg": {
+      "source": "IMG_20240509_153656.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153729-14ca78ac25c1.jpg": {
+      "source": "IMG_20240509_153729.jpg",
+      "method": "same_capture_name"
+    },
+    "IMG_20240509_153729.jpg": {
+      "source": "IMG_20240509_153729.jpg",
+      "method": "exact"
+    },
+    "IMG_20240509_153739.jpg": {
+      "source": "IMG_20240509_153629-3dafc89d7c8e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_153741-f0df62038e68.jpg": {
+      "source": "IMG_20240509_153629-3dafc89d7c8e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.0
+    },
+    "IMG_20240509_153741.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.145
+    },
+    "IMG_20240509_153810-7adb3eed8236.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.317
+    },
+    "IMG_20240509_153810.jpg": {
+      "source": "IMG_20240509_152654-d8957463a5fc.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.311
+    },
+    "IMG_20240509_154357.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.837
+    },
+    "IMG_20240509_154454.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.837
+    },
+    "IMG_20240509_154455.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.837
+    },
+    "IMG_20240509_154519.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.317
+    },
+    "IMG_20240509_154739.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.317
+    },
+    "IMG_20240509_154744.jpg": {
+      "source": "IMG_20240509_153452.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.317
+    },
+    "IMG_20240509_154948.jpg": {
+      "source": "IMG_20240509_152422-b52eea1bf58e.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.491
+    },
+    "IMG_20240509_155146.jpg": {
+      "source": "IMG_20240509_152408-1b7bd6d07bf5.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.466
+    },
+    "IMG_20240509_155149.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.002
+    },
+    "IMG_20240509_155151.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.002
+    },
+    "IMG_20240509_155152.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.002
+    },
+    "IMG_20240509_155430.jpg": {
+      "source": "IMG_20240509_152552-6c276c1af937.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 0.01
+    },
+    "IMG_20240509_200510.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.019
+    },
+    "IMG_20240509_200608.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 113.408
+    },
+    "IMG_20240509_200846.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.079
+    },
+    "IMG_20240509_200849.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.079
+    },
+    "IMG_20240509_200925.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.079
+    },
+    "IMG_20240509_201159.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.233
+    },
+    "IMG_20240509_201204.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.233
+    },
+    "IMG_20240509_201209.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 114.233
+    },
+    "IMG_20240509_204227.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 118.87
+    },
+    "IMG_20240509_204235.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 118.87
+    },
+    "IMG_20240509_204239.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 118.87
+    },
+    "IMG_20240509_205109.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 119.034
+    },
+    "IMG_20240509_205844.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 119.034
+    },
+    "IMG_20240509_205846.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 119.034
+    },
+    "IMG_20240509_213014.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 119.029
+    },
+    "IMG_20240509_213026.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 119.029
+    },
+    "IMG_20240510_094434.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.457
+    },
+    "IMG_20240510_095010.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.457
+    },
+    "IMG_20240510_095023.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.457
+    },
+    "IMG_20240510_095030.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.457
+    },
+    "IMG_20240510_095034.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.457
+    },
+    "IMG_20240510_095517.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.486
+    },
+    "IMG_20240510_100007.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.545
+    },
+    "IMG_20240510_100030.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.545
+    },
+    "IMG_20240510_100125.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.587
+    },
+    "IMG_20240510_100434.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.555
+    },
+    "IMG_20240510_100547.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.555
+    },
+    "IMG_20240510_100805.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.554
+    },
+    "IMG_20240510_100806.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.554
+    },
+    "IMG_20240510_100856.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.583
+    },
+    "IMG_20240510_100904.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 125.583
+    },
+    "IMG_20240510_113519.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_113522.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_113532.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_113533.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_113543.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_113555.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120723.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120728.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120733.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120735.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120815.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120822.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120851.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120853.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120854.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120855.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120857.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_120954.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.354
+    },
+    "IMG_20240510_120959.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.354
+    },
+    "IMG_20240510_121002.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.354
+    },
+    "IMG_20240510_121006.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.354
+    },
+    "IMG_20240510_121007.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.354
+    },
+    "IMG_20240510_121244.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.358
+    },
+    "IMG_20240510_122725.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.414
+    },
+    "IMG_20240510_122727.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.414
+    },
+    "IMG_20240510_122817.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.414
+    },
+    "IMG_20240510_122820.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.414
+    },
+    "IMG_20240510_122952.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 129.414
+    },
+    "IMG_20240510_122954.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.156
+    },
+    "IMG_20240510_130448.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.236
+    },
+    "IMG_20240510_130451.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.236
+    },
+    "IMG_20240510_130452.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.236
+    },
+    "IMG_20240510_130510.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.236
+    },
+    "IMG_20240510_130515.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.236
+    },
+    "IMG_20240510_133253.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.209
+    },
+    "IMG_20240510_133325.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.209
+    },
+    "IMG_20240510_133939.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.725
+    },
+    "IMG_20240510_133945.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.725
+    },
+    "IMG_20240510_134000.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.725
+    },
+    "IMG_20240510_134002.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 133.725
+    },
+    "IMG_20240510_204440.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 6.107
+    },
+    "IMG_20240510_204454.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 6.107
+    },
+    "IMG_20240510_204509.jpg": {
+      "source": "IMG_20240509_110449.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 6.107
+    },
+    "IMG_20240511_150214.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 40.928
+    },
+    "IMG_20240511_151643.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 40.695
+    },
+    "IMG_20240511_154750.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 40.828
+    },
+    "IMG_20240511_175231.jpg": {
+      "source": "IMG_20240508_172727.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 40.875
+    },
+    "IMG_20240512_210657.jpg": {
+      "source": "IMG_20240503_180134.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 13.592
+    },
+    "mmexport1714985878506.jpg": {
+      "source": "IMG_20240503_180134.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 13.592
+    },
+    "wx_camera_1714735439939.jpg": {
+      "source": "IMG_20240503_180134.jpg",
+      "method": "nearby_demo_replacement",
+      "distance_km": 13.592
+    }
+  }
+}

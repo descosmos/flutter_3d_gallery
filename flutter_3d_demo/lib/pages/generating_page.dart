@@ -1,8 +1,7 @@
-import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 
 import '../player/story_player_page.dart';
+import '../gpu/story_scene.dart';
 import '../story/story_models.dart';
 
 /// AI 分析与生成页：3D 浮动照片卡 + 进度环 + 阶段清单。
@@ -53,18 +52,6 @@ class _GeneratingPageState extends State<GeneratingPage>
         }
       })
       ..forward();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _precache());
-  }
-
-  void _precache() {
-    for (final chapter in widget.story.chapters) {
-      for (final shot in chapter.shots) {
-        precacheImage(AssetImage(shot.asset), context);
-        for (final extra in shot.extraAssets) {
-          precacheImage(AssetImage(extra), context);
-        }
-      }
-    }
   }
 
   @override
@@ -133,72 +120,11 @@ class _GeneratingPageState extends State<GeneratingPage>
     return '正在生成可播放预览';
   }
 
-  Widget _buildCarousel() {
-    final assets = [
-      widget.story.coverAsset,
-      'assets/photos/IMG_20240509_114359.jpg',
-      'assets/photos/IMG_20240505_151315.jpg',
-      'assets/photos/IMG_20240506_180648.jpg',
-      'assets/photos/IMG_20240504_232713.jpg',
-    ];
-    return AnimatedBuilder(
-      animation: _spin,
-      builder: (context, _) {
-        final angle0 = _spin.value * 2 * math.pi;
-        final order = List.generate(assets.length, (i) => i)
-          ..sort((a, b) {
-            final za = math.cos(angle0 + a * 2 * math.pi / assets.length);
-            final zb = math.cos(angle0 + b * 2 * math.pi / assets.length);
-            return za.compareTo(zb);
-          });
-        return Stack(
-          alignment: Alignment.center,
-          children: [
-            for (final i in order)
-              () {
-                final angle = angle0 + i * 2 * math.pi / assets.length;
-                final z = math.cos(angle); // -1 远 … 1 近
-                final x = math.sin(angle) * 118;
-                final scale = 0.55 + 0.45 * ((z + 1) / 2);
-                final opacity = 0.35 + 0.65 * ((z + 1) / 2);
-                return Transform(
-                  alignment: Alignment.center,
-                  transform: Matrix4.identity()
-                    ..setEntry(3, 2, 0.0015)
-                    ..translateByDouble(x, -z * 8.0, z * 120, 1)
-                    ..rotateY(-math.sin(angle) * 0.35)
-                    ..scaleByDouble(scale, scale, scale, 1),
-                  child: Opacity(
-                    opacity: opacity,
-                    child: Container(
-                      width: 128,
-                      height: 170,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(14),
-                        border: Border.all(
-                          color: Colors.white.withValues(alpha: 0.55),
-                          width: 1,
-                        ),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withValues(alpha: 0.5),
-                            blurRadius: 18,
-                          ),
-                        ],
-                      ),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(14),
-                        child: Image.asset(assets[i], fit: BoxFit.cover),
-                      ),
-                    ),
-                  ),
-                );
-              }(),
-          ],
-        );
-      },
-    );
-  }
+  Widget _buildCarousel() => AnimatedBuilder(
+    animation: _spin,
+    builder: (context, _) => GpuStoryScene(story: widget.story,
+      time: _spin.value * 8, parallax: Offset.zero),
+  );
 
   Widget _buildProgressRing(double p) {
     return SizedBox(

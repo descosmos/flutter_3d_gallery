@@ -28,13 +28,18 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  hooks: ^2.2.0
   flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_scene: 0.23.0
+  vector_math: ^2.4.3
 dev_dependencies:
+  integration_test:
+    sdk: flutter
   flutter_test:
     sdk: flutter
 
@@ -57,10 +62,111 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/photos/
+    - assets/texture_aliases.json
+    - assets/photos/IMG_20240503_180134.jpg
+    - assets/photos/IMG_20240504_154139.jpg
+    - assets/photos/IMG_20240504_154144.jpg
+    - assets/photos/IMG_20240504_154214.jpg
+    - assets/photos/IMG_20240504_161223.jpg
+    - assets/photos/IMG_20240504_183555.jpg
+    - assets/photos/IMG_20240504_232713.jpg
+    - assets/photos/IMG_20240505_103326.jpg
+    - assets/photos/IMG_20240505_103642.jpg
+    - assets/photos/IMG_20240505_104201.jpg
+    - assets/photos/IMG_20240505_151315.jpg
+    - assets/photos/IMG_20240506_172220.jpg
+    - assets/photos/IMG_20240506_180648.jpg
+    - assets/photos/IMG_20240506_200631.jpg
+    - assets/photos/IMG_20240507_092618.jpg
+    - assets/photos/IMG_20240507_092621.jpg
+    - assets/photos/IMG_20240507_093002.jpg
+    - assets/photos/IMG_20240507_105118.jpg
+    - assets/photos/IMG_20240507_222156.jpg
+    - assets/photos/IMG_20240507_222811.jpg
+    - assets/photos/IMG_20240509_101622.jpg
+    - assets/photos/IMG_20240509_102226.jpg
+    - assets/photos/IMG_20240509_114359.jpg
+    - assets/photos/IMG_20240509_114401.jpg
+    - assets/photos/IMG_20240509_152417.jpg
+    - assets/photos/IMG_20240503_105343.jpg
+    - assets/photos/IMG_20240503_162530.jpg
+    - assets/photos/IMG_20240504_155726.jpg
+    - assets/photos/IMG_20240504_155728.jpg
+    - assets/photos/IMG_20240504_190337.jpg
+    - assets/photos/IMG_20240504_190354.jpg
+    - assets/photos/IMG_20240504_190553.jpg
+    - assets/photos/IMG_20240504_190555.jpg
+    - assets/photos/IMG_20240505_102620.jpg
+    - assets/photos/IMG_20240505_102625.jpg
+    - assets/photos/IMG_20240505_102631.jpg
+    - assets/photos/IMG_20240505_103325.jpg
+    - assets/photos/IMG_20240505_163527.jpg
+    - assets/photos/IMG_20240505_163542.jpg
+    - assets/photos/IMG_20240505_163555.jpg
+    - assets/photos/IMG_20240505_163714.jpg
+    - assets/photos/IMG_20240505_164612.jpg
+    - assets/photos/IMG_20240506_093436.jpg
+    - assets/photos/IMG_20240506_100341.jpg
+    - assets/photos/IMG_20240506_100342.jpg
+    - assets/photos/IMG_20240506_100344.jpg
+    - assets/photos/IMG_20240506_100537-5fc9251c248c.jpg
+    - assets/photos/IMG_20240506_100537.jpg
+    - assets/photos/IMG_20240506_100539-4685ab8c81da.jpg
+    - assets/photos/IMG_20240506_100539.jpg
+    - assets/photos/IMG_20240506_101129.jpg
+    - assets/photos/IMG_20240506_155337.jpg
+    - assets/photos/IMG_20240506_180932.jpg
+    - assets/photos/IMG_20240506_180950.jpg
+    - assets/photos/IMG_20240506_200037.jpg
+    - assets/photos/IMG_20240506_200052.jpg
+    - assets/photos/IMG_20240507_134036.jpg
+    - assets/photos/IMG_20240507_134103.jpg
+    - assets/photos/IMG_20240507_134107.jpg
+    - assets/photos/IMG_20240507_134116.jpg
+    - assets/photos/IMG_20240507_134958.jpg
+    - assets/photos/IMG_20240507_141726.jpg
+    - assets/photos/IMG_20240507_222817.jpg
+    - assets/photos/IMG_20240508_172727.jpg
+    - assets/photos/IMG_20240508_184147.jpg
+    - assets/photos/IMG_20240508_185958.jpg
+    - assets/photos/IMG_20240508_190017.jpg
+    - assets/photos/IMG_20240509_110449.jpg
+    - assets/photos/IMG_20240509_113022.jpg
+    - assets/photos/IMG_20240509_114433.jpg
+    - assets/photos/IMG_20240509_125756.jpg
+    - assets/photos/IMG_20240509_130039.jpg
+    - assets/photos/IMG_20240509_130501.jpg
+    - assets/photos/IMG_20240509_130524.jpg
+    - assets/photos/IMG_20240509_134819.jpg
+    - assets/photos/IMG_20240509_134836.jpg
+    - assets/photos/IMG_20240509_134848.jpg
+    - assets/photos/IMG_20240509_152213-5d39f766dbfc.jpg
+    - assets/photos/IMG_20240509_152213.jpg
+    - assets/photos/IMG_20240509_152408-1b7bd6d07bf5.jpg
+    - assets/photos/IMG_20240509_152408.jpg
+    - assets/photos/IMG_20240509_152411.jpg
+    - assets/photos/IMG_20240509_152422-b52eea1bf58e.jpg
+    - assets/photos/IMG_20240509_152422.jpg
+    - assets/photos/IMG_20240509_152507.jpg
+    - assets/photos/IMG_20240509_152514.jpg
+    - assets/photos/IMG_20240509_152552-6c276c1af937.jpg
+    - assets/photos/IMG_20240509_152552.jpg
+    - assets/photos/IMG_20240509_152559.jpg
+    - assets/photos/IMG_20240509_152654-d8957463a5fc.jpg
+    - assets/photos/IMG_20240509_152654.jpg
+    - assets/photos/IMG_20240509_153452.jpg
+    - assets/photos/IMG_20240509_153456.jpg
+    - assets/photos/IMG_20240509_153503.jpg
+    - assets/photos/IMG_20240509_153629-3dafc89d7c8e.jpg
+    - assets/photos/IMG_20240509_153629.jpg
+    - assets/photos/IMG_20240509_153644.jpg
+    - assets/photos/IMG_20240509_153646.jpg
+    - assets/photos/IMG_20240509_153656.jpg
+    - assets/photos/IMG_20240509_153729.jpg
     - assets/thumbs/
     - assets/earth_dark.jpg
     - assets/terrain.bin
+    - flutter_scene_generated/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

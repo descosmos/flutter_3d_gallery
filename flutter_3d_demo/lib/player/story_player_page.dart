@@ -122,21 +122,9 @@ class _StoryPlayerPageState extends State<StoryPlayerPage>
               Curves.easeOut.transform(_parallaxReset.value))!;
         });
       });
-    WidgetsBinding.instance.addPostFrameCallback((_) => _precache());
   }
 
   Offset _parallaxStart = Offset.zero;
-
-  void _precache() {
-    for (final chapter in widget.story.chapters) {
-      for (final shot in chapter.shots) {
-        precacheImage(AssetImage(shot.asset), context);
-        for (final extra in shot.extraAssets) {
-          precacheImage(AssetImage(extra), context);
-        }
-      }
-    }
-  }
 
   void _onChanged() {
     if (mounted) setState(() {});

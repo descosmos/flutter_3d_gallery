@@ -4,6 +4,7 @@
         android:label="flutter_3d_demo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="io.flutter.embedding.android.EnableFlutterGPU" android:value="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

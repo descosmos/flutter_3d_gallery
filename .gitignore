@@ -24,4 +24,5 @@ flutter_3d_demo/test/shots/
 .pub-cache/
 .pub/
 .buildlog/
+.local_assets/
 build/

@@ -8,12 +8,14 @@ import 'package:flutter_3d_demo/pages/generating_page.dart';
 import 'package:flutter_3d_demo/pages/interactive_story_page.dart';
 import 'package:flutter_3d_demo/player/story_player_page.dart';
 import 'package:flutter_3d_demo/story/story_models.dart';
+import 'gpu_test_support.dart';
 
 /// 关键页面的截图验证：入口页、生成页、播放器各章节代表时刻。
 /// 截图输出到 test/shots/ 目录，可直接查看。
 /// 运行 `flutter test test/story_golden_test.dart` 生成。
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+  if (!runGpuTests) return;
 
   Future<void> snap(WidgetTester tester, String name) async {
     await tester.runAsync(() async {
@@ -38,6 +40,7 @@ void main() {
       await Future<void>.delayed(const Duration(milliseconds: 800));
     });
     await tester.pump();
+    if (child is! MemoryEntryPage) await waitForGpu(tester);
   }
 
   testWidgets('入口页', (tester) async {
@@ -100,7 +103,7 @@ void main() {
   testWidgets('互动空间 路线图', (tester) async {
     await pumpScenario(tester, InteractiveStoryPage(story: demoStory));
     await tester.pump(const Duration(milliseconds: 200));
-    await tester.tap(find.byIcon(Icons.map_outlined).first);
+    await tester.tap(find.byIcon(Icons.public).first);
     // 先构建出地图与图片标记，再等真实解码，最后推进生长动画
     await tester.pump();
     await tester.runAsync(
