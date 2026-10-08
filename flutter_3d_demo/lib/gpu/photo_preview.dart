@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart';
 
+import '../photos/photo_source.dart';
+
 Future<void> showPhotoPreview(BuildContext context, String asset) =>
     showPhotoGallery(context, [asset]);
 
@@ -45,10 +47,12 @@ Future<List<String>> _resolveAssets(List<String> assets) async {
   )).listAssets().toSet();
   return [
     for (final asset in assets)
-      paths['assets/thumbs/${asset.split('/').last}'] ??
-          (manifest.contains('assets/photos/${asset.split('/').last}')
-              ? 'assets/photos/${asset.split('/').last}'
-              : asset),
+      isLocalPhoto(asset)
+          ? localPhotoPreview(asset)
+          : paths['assets/thumbs/${asset.split('/').last}'] ??
+                (manifest.contains('assets/photos/${asset.split('/').last}')
+                    ? 'assets/photos/${asset.split('/').last}'
+                    : asset),
   ];
 }
 
@@ -138,7 +142,7 @@ class _PhotoPreviewState extends State<PhotoPreview> {
         .sublist(math.max(0, _index - 1), math.min(_photos.length, _index + 2))
         .toSet();
     for (final path in _decoded.difference(keep).toList()) {
-      AssetImage(path).evict();
+      photoImageProvider(path).evict();
       _decoded.remove(path);
     }
     _pageKeys.removeWhere((i, key) => (i - _index).abs() > 1);
@@ -170,7 +174,7 @@ class _PhotoPreviewState extends State<PhotoPreview> {
     _pageDrag?.cancel();
     _pager.dispose();
     for (final path in _decoded) {
-      AssetImage(path).evict();
+      photoImageProvider(path).evict();
     }
     super.dispose();
   }
@@ -448,8 +452,8 @@ class _ZoomablePhotoState extends State<_ZoomablePhoto> {
       onInteractionUpdate: widget.onInteractionUpdate,
       onInteractionEnd: widget.onInteractionEnd,
       child: SizedBox.expand(
-        child: Image.asset(
-          widget.asset,
+        child: Image(
+          image: photoImageProvider(widget.asset),
           key: widget.current ? const ValueKey('photo-preview-image') : null,
           fit: BoxFit.contain,
           errorBuilder: (_, _, _) => const Center(child: Text('图片暂时无法加载')),

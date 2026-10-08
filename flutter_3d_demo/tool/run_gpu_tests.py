@@ -4,13 +4,14 @@ from pathlib import Path
 parser=argparse.ArgumentParser(description='连接当前设备上的 profile 集成测试包并读取结果。先构建 app-profile.apk。')
 parser.add_argument('--serial',required=True)
 parser.add_argument('--apk',type=Path,help='指定已构建的 GPU 集成测试 profile APK')
+parser.add_argument('--app-id',default='com.example.flutter_3d_demo',help='可选的独立测试包名')
 args=parser.parse_args()
 root=Path(__file__).resolve().parents[1]
 adb=['adb','-s',args.serial]
-app='com.example.flutter_3d_demo'
+app=args.app_id
 subprocess.run(adb+['install','-r',str(args.apk or root/'build/app/outputs/flutter-apk/app-profile.apk')],check=True)
 subprocess.run(adb+['shell','am','force-stop',app],check=True)
-subprocess.run(adb+['shell','am','start','-W','-n',app+'/.MainActivity'],check=True)
+subprocess.run(adb+['shell','am','start','-W','-n',app+'/com.example.flutter_3d_demo.MainActivity'],check=True)
 url=None
 for _ in range(30):
  pid=subprocess.check_output(adb+['shell','pidof',app],text=True).strip()

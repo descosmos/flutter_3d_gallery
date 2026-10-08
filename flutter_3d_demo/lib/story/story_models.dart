@@ -4,6 +4,8 @@
 /// 相机运动由 Manifest 驱动，Flutter 动画只负责时间推进。
 library;
 
+import 'photo_geo.dart';
+
 enum ShotTemplate {
   dollyIn, // 推进
   parallaxPan, // 视差平移
@@ -57,6 +59,8 @@ class StorySpec {
     required this.photoCount,
     required this.coverAsset,
     required this.chapters,
+    this.mapPhotos,
+    this.hasClosingChapter = true,
   });
 
   final String title;
@@ -65,8 +69,12 @@ class StorySpec {
   final String coverAsset;
   final List<ChapterSpec> chapters;
 
-  double get totalDuration =>
-      chapters.fold(0.0, (sum, c) => sum + c.duration);
+  /// Null keeps the bundled demo map; local stories carry only their selected photos.
+  final Map<String, GeoPoint>? mapPhotos;
+  final bool hasClosingChapter;
+  int get spaceChapterCount => chapters.length - (hasClosingChapter ? 1 : 0);
+
+  double get totalDuration => chapters.fold(0.0, (sum, c) => sum + c.duration);
 
   /// 全局时间（秒）→ 定位到具体镜头
   ShotLocation locate(double time) {
@@ -116,8 +124,7 @@ class StorySpec {
     return starts;
   }
 
-  int get totalShots =>
-      chapters.fold(0, (sum, c) => sum + c.shots.length);
+  int get totalShots => chapters.fold(0, (sum, c) => sum + c.shots.length);
 }
 
 class ShotLocation {

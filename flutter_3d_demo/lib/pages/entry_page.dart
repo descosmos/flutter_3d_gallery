@@ -136,7 +136,7 @@ class _MemoryEntryPageState extends State<MemoryEntryPage> {
               IconButton(
                 icon: const Icon(Icons.arrow_back_ios_new,
                     color: Colors.white, size: 20),
-                onPressed: () {},
+                onPressed: () => Navigator.maybePop(context),
               ),
               const Spacer(),
               Container(

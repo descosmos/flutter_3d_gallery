@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
 
-import 'pages/entry_page.dart';
+import 'pages/travel_home_page.dart';
 import 'pages/generating_page.dart';
 import 'pages/interactive_story_page.dart';
 import 'player/story_player_page.dart';
 import 'story/story_models.dart';
 import 'widgets/phone_stage.dart';
 
-const String _autostart =
-    String.fromEnvironment('AUTOSTART', defaultValue: 'entry');
-const String _startAtRaw =
-    String.fromEnvironment('START_AT', defaultValue: '0');
+const String _autostart = String.fromEnvironment(
+  'AUTOSTART',
+  defaultValue: 'entry',
+);
+const String _startAtRaw = String.fromEnvironment(
+  'START_AT',
+  defaultValue: '0',
+);
 final double _startAt = double.tryParse(_startAtRaw) ?? 0;
 
 void main() {
@@ -46,7 +50,7 @@ class Flutter3DDemoApp extends StatelessWidget {
       case 'player':
         return StoryPlayerPage(story: demoStory, startAt: _startAt);
       default:
-        return const MemoryEntryPage();
+        return const TravelHomePage();
     }
   }
 }

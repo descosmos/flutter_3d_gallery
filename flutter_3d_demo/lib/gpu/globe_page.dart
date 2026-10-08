@@ -610,6 +610,7 @@ class _GpuGlobePageState extends State<GpuGlobePage>
                           builder: (_) => GpuTerrainPage(
                             focus: GeoPoint(_lat, _lng),
                             story: widget.story,
+                            photos: widget.photos,
                           ),
                         ),
                       ),

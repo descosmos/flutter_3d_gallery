@@ -16,7 +16,9 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.flutter_3d_demo"
+        // Optional isolated package for device tests; delivered APK keeps the original ID.
+        applicationId = providers.gradleProperty("galleryApplicationId")
+            .getOrElse("com.example.flutter_3d_demo")
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

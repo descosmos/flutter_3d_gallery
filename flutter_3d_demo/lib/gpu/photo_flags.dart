@@ -2,13 +2,13 @@ import 'dart:math' as math;
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_scene/scene.dart' as fs;
 import 'package:vector_math/vector_math.dart' as vm;
 
 import 'photo_clusters.dart';
 import 'scene_assets.dart';
 import 'map_navigation.dart';
+import '../photos/photo_source.dart';
 
 /// 旗子、旗杆与地点锚点都在 GPU 场景中；数量角标烘焙到旗面左上角。
 class PhotoFlag {
@@ -117,9 +117,8 @@ class PhotoFlagTextures {
   void clear() => _textures.clear();
 
   Future<fs.Texture2D> _make(PhotoCluster cluster) async {
-    final data = await rootBundle.load(cluster.photos.first.key);
     final codec = await ui.instantiateImageCodec(
-      data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes),
+      await photoBytes(photoThumbnail(cluster.photos.first.key)),
       targetWidth: 256,
     );
     final image = (await codec.getNextFrame()).image;

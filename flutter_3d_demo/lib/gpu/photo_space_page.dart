@@ -9,6 +9,7 @@ import '../pages/photo_map_shared.dart';
 import '../player/particles.dart';
 import '../story/photo_geo.dart';
 import '../story/story_models.dart';
+import '../photos/photo_source.dart';
 import 'gallery_math.dart';
 import 'globe_page.dart';
 import 'scene_assets.dart';
@@ -62,7 +63,7 @@ class _GpuPhotoSpacePageState extends State<GpuPhotoSpacePage> {
       _photos.addAll(widget.photos!.map((p) => p.thumbAsset));
       _chapters.addAll(List.filled(_photos.length, 0));
     } else {
-      for (int c = 0; c < widget.story.chapters.length - 1; c++) {
+      for (int c = 0; c < widget.story.spaceChapterCount; c++) {
         for (final shot in widget.story.chapters[c].shots) {
           _photos.add(shot.asset);
           _chapters.add(c);
@@ -128,7 +129,10 @@ class _GpuPhotoSpacePageState extends State<GpuPhotoSpacePage> {
   Future<void> _loadFocus() async {
     if (!_ready) return;
     final index = _selected;
-    if (!_photos[index].startsWith('assets/photos/')) return;
+    if (!_photos[index].startsWith('assets/photos/') &&
+        !isLocalPhoto(_photos[index])) {
+      return;
+    }
     _highResolution.add(index);
     for (final old
         in _highResolution.where((i) => (i - index).abs() > 1).toList()) {
@@ -364,13 +368,16 @@ class _GpuPhotoSpacePageState extends State<GpuPhotoSpacePage> {
                       tooltip: '3D 照片地图',
                       icon: const Icon(Icons.public),
                       onPressed: () {
-                        final key =
-                            'assets/thumbs/${_photos[_selected].split('/').last}';
+                        final key = photoThumbnail(_photos[_selected]);
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (_) => GpuGlobePage(
-                              focus: photoGeo[key] ?? const GeoPoint(43, 86),
+                              focus:
+                                  widget.story.mapPhotos?[_photos[_selected]] ??
+                                  photoGeo[key] ??
+                                  const GeoPoint(43, 86),
                               story: widget.story,
+                              photos: widget.story.mapPhotos?.entries.toList(),
                             ),
                           ),
                         );
@@ -410,7 +417,7 @@ class _GpuPhotoSpacePageState extends State<GpuPhotoSpacePage> {
                           children: [
                             for (
                               int i = 0;
-                              i < widget.story.chapters.length - 1;
+                              i < widget.story.spaceChapterCount;
                               i++
                             )
                               Padding(
@@ -595,10 +602,12 @@ class _GlassAmbient extends StatelessWidget {
         imageFilter: ui.ImageFilter.blur(sigmaX: 40, sigmaY: 40),
         child: Transform.scale(
           scale: 1.35,
-          child: Image.asset(
-            'assets/thumbs/${asset.split('/').last}',
+          child: Image(
+            image: ResizeImage(
+              photoImageProvider(photoThumbnail(asset)),
+              width: 256,
+            ),
             fit: BoxFit.cover,
-            cacheWidth: 256,
           ),
         ),
       ),

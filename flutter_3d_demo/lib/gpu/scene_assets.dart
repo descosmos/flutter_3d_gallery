@@ -1,11 +1,14 @@
 import 'dart:convert';
 import 'dart:math' as math;
+import 'dart:ui' as ui;
 
 import 'package:flutter/services.dart';
 import 'package:flutter_scene/scene.dart' as fs;
 import 'package:vector_math/vector_math.dart' as vm;
 
 import '../story/photo_geo.dart';
+import '../photos/photo_source.dart';
+import 'async_texture.dart';
 import 'gallery_math.dart';
 
 void addStarfield(fs.Scene scene) {
@@ -51,13 +54,35 @@ class SceneAssets {
     String path, {
     bool thumbnail = false,
   }) async {
-    if (thumbnail) path = 'assets/thumbs/${path.split('/').last}';
+    if (thumbnail) path = photoThumbnail(path);
+    if (_disposed) throw StateError('场景已关闭');
+    if (isLocalPhoto(path)) {
+      return _textures.putIfAbsent(path, () => _localTexture(path));
+    }
     final aliases = await (_aliases ??= rootBundle
         .loadString('assets/texture_aliases.json')
         .then((s) => (jsonDecode(s)['aliases'] as Map).cast<String, String>()));
     final key = aliases[path] ?? path;
     if (_disposed) throw StateError('场景已关闭');
     return _textures.putIfAbsent(key, () => fs.loadTexture(key));
+  }
+
+  Future<fs.TextureSource> _localTexture(String path) async {
+    final codec = await ui.instantiateImageCodec(await photoBytes(path));
+    try {
+      final image = (await codec.getNextFrame()).image;
+      try {
+        return await textureFromImageAsync(
+          image,
+          sampling: const fs.TextureSampling(),
+          isAlive: () => !_disposed,
+        );
+      } finally {
+        image.dispose();
+      }
+    } finally {
+      codec.dispose();
+    }
   }
 
   /// 释放本视图的一次持有；材质必须先切回缩略图，其他视图的引用不受影响。
@@ -71,12 +96,13 @@ class SceneAssets {
     } catch (_) {
       return;
     }
-    await fs.releaseTexture(key);
+    if (!isLocalPhoto(key)) await fs.releaseTexture(key);
   }
 
   void dispose() {
     _disposed = true;
     for (final entry in _textures.entries) {
+      if (isLocalPhoto(entry.key)) continue;
       entry.value.then(
         (_) => fs.releaseTexture(entry.key),
         onError: (Object _, StackTrace _) => false,
